@@ -16,7 +16,7 @@ export const typeormCliConfig: MysqlConnectionOptions = {
   insecureAuth: true,
   synchronize: false,
   logger: 'advanced-console',
-  logging: true,
+  logging: false,
   // entities: [join('src', 'domain', '**', '*.entity.{ts,js}')],
   // migrations: [join('src', 'migrations', '*.{ts,js}')],
   // migrationsTableName: 'migrations_typeorm',
